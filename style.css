@@ -148,7 +148,7 @@ h1 span { color: var(--gold); }
   width: 176px;
   height: 176px;
   border-radius: 50%;
-  display: grid;           /* The HTML hides this when the photo loads */
+  display: none;           /* The HTML hides this when the photo loads */
   place-items: center;
   border: 1px solid var(--gold);
   color: var(--gold);
