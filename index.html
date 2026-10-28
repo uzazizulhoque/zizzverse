@@ -2,54 +2,64 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <!-- Makes the layout adapt to phones, tablets, and desktops. -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Browser tab title and search-result description. -->
-  <title>Azizul Hoque | Businessman &amp; Founder of ZIZZVERSE</title>
-  <meta name="description" content="The official personal website of Azizul Hoque, a businessman from Bangladesh. Discover his profile, business interests, and official links.">
+  <title>Azizul Hoque | Founder &amp; CEO of ZIZZVERSE</title>
+
+  <meta name="description" content="The official personal website of Azizul Hoque, Founder and CEO of ZIZZVERSE, based in Bangladesh. Discover his profile, professional interests, projects, and official links.">
+
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#080808">
 
-  <!-- Social preview details. Update og:image after the site is published. -->
+  <!-- Social Media Preview -->
   <meta property="og:type" content="profile">
-  <meta property="og:title" content="Azizul Hoque — ZIZZVERSE">
-  <meta property="og:description" content="Official personal profile of Azizul Hoque. Business, vision, and selected interests.">
+  <meta property="og:title" content="Azizul Hoque | Founder &amp; CEO of ZIZZVERSE">
+  <meta property="og:description" content="Official personal website of Azizul Hoque, Founder and CEO of ZIZZVERSE.">
   <meta property="og:site_name" content="ZIZZVERSE">
-  <!-- Optional: uncomment and replace YOUR-SITE-URL after publishing.
-  <link rel="canonical" href="https://YOUR-SITE-URL/">
-  <meta property="og:url" content="https://YOUR-SITE-URL/">
-  <meta property="og:image" content="https://YOUR-SITE-URL/azizul-hoque.jpg">
+
+  <!-- Add your real website URL after publishing.
+  <link rel="canonical" href="https://YOUR-DOMAIN/">
+  <meta property="og:url" content="https://YOUR-DOMAIN/">
+  <meta property="og:image" content="https://YOUR-DOMAIN/azizul-hoque.jpg">
   -->
 
-  <!-- Small browser-tab icon. -->
+  <!-- Favicon -->
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
 
-  <!-- Connect this HTML file to the separate CSS file. -->
+  <!-- External CSS -->
   <link rel="stylesheet" href="style.css">
 
-  <!-- SEO structured data: tells search engines this is a profile page about a person. -->
-  <!-- Update the URL and image after the website is published and the photo is uploaded. -->
+  <!-- SEO Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ProfilePage",
     "name": "Azizul Hoque — Official Website",
-    "description": "Official personal profile of Azizul Hoque, a businessman from Bangladesh.",
+    "description": "Official personal profile of Azizul Hoque, Founder and CEO of ZIZZVERSE.",
     "mainEntity": {
       "@type": "Person",
       "name": "Azizul Hoque",
-      "jobTitle": "Businessman",
-      "description": "Businessman from Bangladesh. This website shares his public profile and business interests."
+      "jobTitle": "Founder & CEO",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "ZIZZVERSE"
+      },
+      "description": "Founder and CEO of ZIZZVERSE, based in Bangladesh.",
+      "image": "azizul-hoque.jpg",
+      "url": "https://YOUR-DOMAIN/"
     }
   }
   </script>
 </head>
 
 <body>
-  <!-- Top navigation: brand name and links to sections on this page. -->
+
+  <!-- Header / Navigation -->
   <header class="site-header container">
-    <a class="wordmark" href="#home" aria-label="ZIZZVERSE home">ZIZZ<span>VERSE</span></a>
+    <a class="wordmark" href="#home" aria-label="ZIZZVERSE home">
+      ZIZZ<span>VERSE</span>
+    </a>
+
     <nav aria-label="Main navigation">
       <a href="#about">About</a>
       <a href="#profile">Profile</a>
@@ -58,102 +68,176 @@
   </header>
 
   <main id="home">
-    <!-- Hero: the main introduction shown at the top of the website. -->
+
+    <!-- Hero Section -->
     <section class="hero container">
+
       <div class="hero-copy">
         <p class="eyebrow">Official Personal Website</p>
+
         <h1>Azizul<br><span>Hoque.</span></h1>
+
         <p class="intro">
-          Businessman from Bangladesh, building ideas and exploring new opportunities.
-          Welcome to my official online profile.
+          Founder &amp; CEO of ZIZZVERSE, building ideas and exploring
+          new opportunities. Welcome to my official online profile.
         </p>
+
         <div class="actions">
-          <a class="button button-primary" href="#about">Discover More</a>
-          <a class="button" href="#contact">Get in Touch</a>
+          <a class="button button-primary" href="#about">
+            Discover More
+          </a>
+
+          <a class="button" href="#contact">
+            Get in Touch
+          </a>
         </div>
       </div>
 
-      <!-- Photo area: upload your photo as azizul-hoque.jpg into this same folder.
-           The website will load it automatically without changing the HTML.
-           If the image file is missing, the AH monogram is shown instead. -->
+      <!-- Profile Photo -->
       <div class="portrait-frame">
+
         <img
           class="profile-photo"
           src="azizul-hoque.jpg"
-          alt="Portrait of Azizul Hoque"
+          alt="Portrait of Azizul Hoque, Founder and CEO of ZIZZVERSE"
           onerror="this.style.display='none'; document.getElementById('photo-fallback').style.display='grid';"
         >
-        <div class="photo-fallback" id="photo-fallback" aria-hidden="true">AH</div>
-        <p class="portrait-note">ZIZZVERSE · Official Profile</p>
+
+        <div
+          class="photo-fallback"
+          id="photo-fallback"
+          aria-hidden="true"
+          style="display:none;"
+        >
+          AH
+        </div>
+
+        <p class="portrait-note">
+          ZIZZVERSE · Official Profile
+        </p>
+
       </div>
+
     </section>
 
-    <!-- About section: edit this paragraph to match your real background. -->
+    <!-- About Section -->
     <section class="content-section" id="about">
+
       <div class="container section-grid">
+
         <div>
           <p class="eyebrow">A Little About Me</p>
-          <h2>Purpose.<br>Perspective.<br>Progress.</h2>
+
+          <h2>
+            Purpose.<br>
+            Perspective.<br>
+            Progress.
+          </h2>
         </div>
+
         <div class="body-copy">
+
           <p>
-            I'm Azizul Hoque, a businessman from Bangladesh. ZIZZVERSE is my personal
-            brand website—a simple place to share my public profile, professional
-            interests, and selected work.
+            I'm Azizul Hoque, Founder &amp; CEO of ZIZZVERSE.
+            This is my personal brand website—a place to share my
+            public profile, professional interests, and selected work.
           </p>
+
           <p>
-            This website will grow as I have meaningful projects and updates to share.
-            I believe a strong online presence starts with clarity, consistency, and
-            authentic information.
+            ZIZZVERSE represents my vision for building ideas,
+            exploring opportunities, and developing meaningful projects.
+            This website will grow as I have new work and updates to share.
           </p>
+
         </div>
+
       </div>
+
     </section>
 
-    <!-- Profile cards: basic public details. -->
+    <!-- Profile Section -->
     <section class="content-section" id="profile">
+
       <div class="container">
+
         <p class="eyebrow">Profile</p>
+
         <h2>A clear introduction.</h2>
-        <p class="body-copy">A concise overview of my identity and professional focus.</p>
+
+        <p class="body-copy">
+          A concise overview of my identity and professional focus.
+        </p>
+
         <div class="details-grid">
+
           <article class="detail-card">
             <small>Name</small>
             <p>Azizul Hoque</p>
           </article>
+
           <article class="detail-card">
             <small>Profession</small>
-            <p>Businessman</p>
+            <p>Founder &amp; CEO</p>
           </article>
+
+          <article class="detail-card">
+            <small>Brand</small>
+            <p>ZIZZVERSE</p>
+          </article>
+
           <article class="detail-card">
             <small>Based in</small>
             <p>Bangladesh</p>
           </article>
+
         </div>
+
       </div>
+
     </section>
 
-    <!-- Contact section: add genuine public social links or a business email if desired. -->
+    <!-- Contact Section -->
     <section class="content-section" id="contact">
+
       <div class="container">
+
         <div class="contact-panel">
+
           <div>
             <p class="eyebrow">Contact</p>
+
             <h2>Let's connect.</h2>
-            <p>For business enquiries, use one of my official public channels.</p>
+
+            <p>
+              For business enquiries and professional connections,
+              use one of my official public channels.
+            </p>
           </div>
-          <a class="button" href="#home">Back to Top ↑</a>
+
+          <a class="button" href="#home">
+            Back to Top ↑
+          </a>
+
         </div>
+
       </div>
+
     </section>
+
   </main>
 
-  <!-- Footer: the copyright line at the bottom of the page. -->
+  <!-- Footer -->
   <footer class="site-footer">
+
     <div class="container footer-inner">
+
       <span>© 2026 Azizul Hoque · ZIZZVERSE</span>
+
       <span>Official Personal Website</span>
+
     </div>
+
   </footer>
+
 </body>
 </html>
